@@ -21,3 +21,4 @@ for line in meaning_loc:
         example = line.text[2:]
 time.sleep(300)
 notification.notify(title="Word Of The Day", message=f"Word - {word_of_day.text}\nMeaning - {meaning}\nExample - {example}\nLink - {website.url}", timeout=2000)
+exit()
